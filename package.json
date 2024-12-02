@@ -1,0 +1,18 @@
+{
+    "name": "my-contact-api",
+    "version": "1.0.1",
+    "description": "API to manage and customer contact information",
+    "main": "server.js",
+    "dependencies": {
+        "express":"^4.18.1",
+        "mongoose":"^6.0.14",
+        "jsonwebtoken":"^8.5.1",
+        "dotenv":"10.0.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "",
+    "license":"ISC"
+}
